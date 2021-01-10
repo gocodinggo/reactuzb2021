@@ -26,10 +26,10 @@ export default class App extends Component {
   };
 
   handleIncrement = (selectedCounter) => {
-    const { counters } = this.state;
+    const counters = [...this.state.counters];
     const index = counters.indexOf(selectedCounter);
-    const counter = counters[index];
-    counter.value++;
+    counters[index] = { ...selectedCounter };
+    counters[index].value++;
     this.setState({ counters });
   };
 
