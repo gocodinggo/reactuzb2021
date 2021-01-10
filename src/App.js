@@ -33,6 +33,8 @@ export default class App extends Component {
     this.setState({ counters });
   };
 
+  
+
   render() {
     const { counters } = this.state;
     const { handleDelete, handleReset, handleIncrement } = this;
