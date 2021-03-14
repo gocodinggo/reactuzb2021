@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+}
+
+.like-btn {
+  cursor: pointer;
+  transition: 0.3s ease-in-out all;
+}
+
+.like-btn:active {
+  transform: scale(0.9);
+}
+
+.list-group-item {
+  cursor: pointer;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.3s background border linear;
+}
+.list-group-item:hover {
+  background: rgba(237, 237, 237, 0.5);
+}
