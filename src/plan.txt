@@ -1,0 +1,6 @@
+========== 👋🏻 Welcome to Lesson-27 👋🏻 ==========
+#1 -> Default Props 👍🏻
+       ✅ Class component
+       ✅ Functional component
+#2 -> Type checking with PropTypes 👍🏻
+       ✅ https://reactjs.org/docs/typechecking-with-proptypes.html
